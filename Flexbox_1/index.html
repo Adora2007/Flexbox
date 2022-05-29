@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Challenge 1</title>
+</head>
+<style>
+    .body{
+        background-color: black;
+    }
+    .flexbox-conatiner{
+        display: flex;
+        flex-direction: row;
+        justify-items: self-start;
+        justify-content: space-between;
+        -ms-flex-pack: center;
+    }
+    .flex_item{
+        width: 450px;
+
+        height: 300px;
+        background-color: burlywood;
+        border: 10px solid yellow;
+        text-align: center;
+        line-height: 1.5;
+        
+        font-family: 'Times New Roman', Times, serif;
+        font-size: xx-large;
+        color: gainsboro;
+        font-weight: bolder
+        
+        
+    }
+    .flex_second_item{
+        width: 180px;
+        height: 80px;
+        background-color: rgb(214, 201, 184);
+
+        border: 5px solid pink;
+        /* align-items: center; */
+        text-align: center;
+        line-height: 1.5;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-small;
+        color: black;
+        font-weight: bolder;
+        
+        
+    }
+    .flex_second_itemmini{
+        width: 120px;
+        height: 60px;
+ 
+        background-color: rgb(214, 201, 184);
+        border: 5px solid pink;
+        /* align-items: center; */
+        text-align: center;
+        line-height: 1.5;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-small;
+        color: black;
+        font-weight: bolder;
+    }
+    .flex_second_itemminiv3{
+        width: 80px;
+        height: 50px;
+        background-color: rgb(214, 201, 184);
+     
+        border: 5px solid pink;
+        /* align-items: center; */
+        text-align: center;
+        line-height: 1.5;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-small;
+        color: black;
+        font-weight: bolder
+    }
+</style>
+<body>
+    <div class="flexbox-conatiner">
+
+        <div class="flex_item">BOX1
+            <div class="flex_second_item">BOX1</div>
+            <div class="flex_second_item">BOX2</div>
+            <div class="flex_second_itemmini" style="flex-direction: row;">BOX1</div>
+            <div class="flex_second_itemmini" style="flex-direction: row;">BOX2</div>
+            <div class="flex_second_itemmini"style="flex-direction: row;">BOX3</div>
+            <div class="flex_second_itemmini">BOX4</div>
+            <div class="flex_second_itemminiv3">BOX1</div>
+            <div class="flex_second_itemminiv3">BOX2</div>
+            <div class="flex_second_itemminiv3">BOX3</div>
+            <div class="flex_second_itemminiv3">BOX4</div>
+            <div class="flex_second_itemminiv3">BOX5</div>
+    </div>
+
+<!-- The remaining two boxes -->
+        <div class="flex_item">BOX2</div>
+        <div class="flex_item">BOX2</div>
+        
+
+    </div>
+</body>
+</html>
